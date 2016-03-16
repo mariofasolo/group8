@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+
+
 #firstbackground {
   background: linear-gradient(to right, #E62D89 , #FFE565);
   width: 100%;
@@ -7,6 +10,7 @@
 
 body {
   margin: 0px;
+
 
 }
 
@@ -140,13 +144,7 @@ a:hover {
   justify-content: center;
 }
 
-#aboutdiscovertext {
-  float: left;
-  width: 50%;
-  background-color: green;
-  height: 700px;
 
-}
 
 #aboutdiscover p
 
@@ -161,8 +159,22 @@ a:hover {
 }
 
 
-#aboutdiscovertext p {
-  color: white;
-  padding: 25%;
-  font-size: 4em;
+#aboutdiscovertext {
+  float: left;
+  width: 50%;
+
+  height: 700px;
+
 }
+
+
+
+#aboutdiscovertext p {
+  color: #6A6A6A;
+
+  font-size: 1em;
+  font-family: "Droid Serif", sans-serif;
+  padding: 10%;
+  line-height: 1.5;
+
+  }
