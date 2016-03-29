@@ -1,0 +1,19 @@
+body {
+  max-width: 1000px;
+  padding: 1em;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+p {
+  font-size: 3em;
+
+}
+
+
+
+div, section, main, aside, header, footer {
+  border: 1px solid lightgray;
+  padding: .5em;
+  margin-bottom: 1em;
+}
