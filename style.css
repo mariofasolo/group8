@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300);
+
+.button {
+    padding: 1em;
+    display: inline-block;
+    background-color: #20accf;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto Slab', Helvetica, sans-serif;
+    transition: .3s background-color ease-in-out;
+}
+
+.button:hover, .button:focus {
+    background-color: gray;
+}
