@@ -34,6 +34,7 @@ header {
 header img {
   width: 70%;
   float: left;
+  max-width: 400px;
 }
 
 
@@ -105,10 +106,25 @@ a.menu-link {
 
 footer {
   padding: 2em 0 1em 0;
-  color: black;
+  color: white;
   text-align: center;
+  background-color: #20accf;
 }
 
+dd {
+  margin-left: 0;
+  margin-bottom: 1em;
+  line-height: 1.5em;
+}
+
+dt {
+  margin-bottom: .5em;
+  font-weight: bold;
+}
+
+dl {
+  margin-top: 0;
+}
 
 #about_column {
   margin: 0;
