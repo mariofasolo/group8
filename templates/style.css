@@ -100,3 +100,10 @@ a.menu-link {
   color: white;
   font-family: 'Roboto Slab', Georgia, serif;
 }
+
+
+footer {
+  padding: 2em 0 1em 0;
+  color: black;
+  text-align: center;
+}
