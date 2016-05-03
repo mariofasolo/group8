@@ -100,3 +100,8 @@ a.menu-link {
   color: white;
   font-family: 'Roboto Slab', Georgia, serif;
 }
+
+
+#about_column {
+  margin: 0;
+}
