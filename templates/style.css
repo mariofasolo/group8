@@ -84,14 +84,14 @@ a.menu-link {
 				max-height: none;
 			}
 			nav[role=navigation] ul {
-				margin: 0 0 0 -0.25em;
+
 				border: 0;
         float: right;
 			}
 
 			nav[role=navigation]  li {
 				display: inline-block;
-				margin: 0 0.25em;
+
 
 			}
 			nav[role=navigation] li a {
@@ -153,7 +153,7 @@ h1 {
   background-image: url("images/home_bg.png");
   margin-top: 0;
   padding: 0;
-  
+  height: 70vh;
   background-size: cover;
   background-position: center;
 
@@ -165,9 +165,10 @@ h1 {
   color: white;
   font-family: 'Roboto Slab', Georgia, serif;
   font-weight: 200;
-  padding: 1em;
+  padding: 1.5em;
   text-shadow: 0px 0px 1em #000000;
   margin-top: 0;
+
 
 }
 
