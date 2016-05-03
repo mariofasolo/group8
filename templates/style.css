@@ -86,14 +86,17 @@ a.menu-link {
 			nav[role=navigation] ul {
 				margin: 0 0 0 -0.25em;
 				border: 0;
+        float: right;
 			}
 
 			nav[role=navigation]  li {
 				display: inline-block;
 				margin: 0 0.25em;
+
 			}
 			nav[role=navigation] li a {
 				border: 0;
+          float: right;
 			}
 		}
 
