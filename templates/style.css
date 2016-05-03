@@ -102,12 +102,14 @@ a.menu-link {
 }
 
 
-<<<<<<< HEAD
+
 footer {
   padding: 2em 0 1em 0;
   color: black;
   text-align: center;
-=======
+}
+
+
 #about_column {
   margin: 0;
 }
@@ -151,7 +153,7 @@ h1 {
   font-size: 1em;
   color: white;
   font-family: 'Roboto Slab', Georgia, serif;
-  
+
 
   text-shadow: 0px 0px 1em #000000;
   border-style: solid;
@@ -160,5 +162,5 @@ h1 {
   text-decoration: none;
 
 
->>>>>>> origin/gh-pages
+
 }
