@@ -105,3 +105,14 @@ a.menu-link {
 #about_column {
   margin: 0;
 }
+
+
+#menu a {
+  color: white;
+  font-family: 'Roboto Slab', Georgia, serif;
+}
+
+h1 {
+  margin: 0;
+
+}
