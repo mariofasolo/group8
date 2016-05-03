@@ -28,6 +28,7 @@ header {
   width: 100%;
   background-color: #20accf;
   display: absolute;
+  height: 100px;
 
 }
 
@@ -46,7 +47,8 @@ a.menu-link {
   	    display: block;
         float: right;
 
-		    padding: 2em;
+		    padding-top: 0em;
+        padding-right: 2em;
 		}
 		nav[role=navigation] {
 			clear: both;
