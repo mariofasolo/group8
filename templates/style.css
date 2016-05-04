@@ -19,6 +19,7 @@ main {
 text-align: center;
 background-color: #F4F4F4;
 
+
 }
 
 
@@ -32,15 +33,14 @@ header {
 
 }
 
-header img {
+.logo {
   width: 70%;
   float: left;
-  max-width: 400px;
 }
 
-
-
-
+.logo img {
+  width: 100%;
+}
 
 
 a.menu-link {
@@ -82,6 +82,8 @@ a.menu-link {
 			}
 			.js nav[role=navigation] {
 				max-height: none;
+        display: inline-block;
+        float: right;
 			}
 			nav[role=navigation] ul {
 
@@ -152,8 +154,8 @@ h1 {
 #home_image {
   background-image: url("images/home_bg.png");
   margin-top: 0;
-  padding: 0;
-  height: 70vh;
+  padding: 3em;
+
   background-size: cover;
   background-position: center;
 
@@ -177,6 +179,7 @@ h1 {
   font-size: 1em;
   color: white;
   font-family: 'Roboto Slab', Georgia, serif;
+  display: inline-block;
 
 
   text-shadow: 0px 0px 1em #000000;
@@ -187,4 +190,22 @@ h1 {
 
 
 
+}
+
+
+
+
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1; /* IE < 8 */
 }
