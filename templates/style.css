@@ -34,7 +34,7 @@ header {
 }
 
 .logo {
-  width: 70%;
+width: 200px;
   float: left;
 }
 
@@ -47,7 +47,7 @@ a.menu-link {
   	    display: block;
         float: right;
 
-		    padding-top: 0em;
+		    padding-top: 1em;
         padding-right: 2em;
 		}
 		nav[role=navigation] {
@@ -76,7 +76,9 @@ a.menu-link {
 			border-bottom: 1px solid rgba(255, 255, 255, 0.2);;
 		}
 
-		@media screen and (min-width:800px) {
+
+
+		@media screen and (min-width:900px) {
 			a.menu-link {
 			   display: none;
 			}
@@ -84,6 +86,9 @@ a.menu-link {
 				max-height: none;
         display: inline-block;
         float: right;
+        clear: none;
+        padding-top: .85em;
+        padding-right: 2em;
 			}
 			nav[role=navigation] ul {
 
@@ -100,7 +105,18 @@ a.menu-link {
 				border: 0;
           float: right;
 			}
-		}
+
+
+
+      .logo {
+      width: 300px;
+        float: left;
+      }
+
+
+
+
+  	}
 
 
 
@@ -163,7 +179,7 @@ h1 {
 
 
 #home_quote {
-  font-size: 2em;
+  font-size: 1.5em;
   color: white;
   font-family: 'Roboto Slab', Georgia, serif;
   font-weight: 200;
