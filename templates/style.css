@@ -2,10 +2,11 @@
 
 
 body {
-  max-width: 1000px;
+  
   padding: 0;
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
+
 }
 
 
@@ -78,45 +79,6 @@ a.menu-link {
 
 
 
-		@media screen and (min-width:900px) {
-			a.menu-link {
-			   display: none;
-			}
-			.js nav[role=navigation] {
-				max-height: none;
-        display: inline-block;
-        float: right;
-        clear: none;
-        padding-top: .85em;
-        padding-right: 2em;
-			}
-			nav[role=navigation] ul {
-
-				border: 0;
-        float: right;
-			}
-
-			nav[role=navigation]  li {
-				display: inline-block;
-
-
-			}
-			nav[role=navigation] li a {
-				border: 0;
-          float: right;
-			}
-
-
-
-      .logo {
-      width: 300px;
-        float: left;
-      }
-
-
-
-
-  	}
 
 
 
@@ -224,4 +186,64 @@ h1 {
 }
 .clearfix {
     zoom: 1; /* IE < 8 */
+}
+
+
+
+
+
+
+
+@media screen and (min-width:900px) {
+  a.menu-link {
+     display: none;
+  }
+  .js nav[role=navigation] {
+    max-height: none;
+    display: inline-block;
+    float: right;
+    clear: none;
+    padding-top: .85em;
+    padding-right: 2em;
+  }
+  nav[role=navigation] ul {
+
+    border: 0;
+    float: right;
+  }
+
+  nav[role=navigation]  li {
+    display: inline-block;
+
+
+  }
+  nav[role=navigation] li a {
+    border: 0;
+      float: right;
+  }
+
+
+
+  .logo {
+  width: 300px;
+    float: left;
+  }
+
+
+  #home_quote {
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+
+
+
+
+
+
+
+
+
+
 }
