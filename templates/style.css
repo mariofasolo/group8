@@ -79,6 +79,46 @@ a.menu-link {
 
 
 
+<<<<<<< Updated upstream
+=======
+		@media screen and (min-width:900px) {
+			a.menu-link {
+			   display: none;
+			}
+			.js nav[role=navigation] {
+				max-height: none;
+        display: inline-block;
+        float: right;
+        clear: none;
+        padding-top: .85em;
+        padding-right: 2em;
+			}
+			nav[role=navigation] ul {
+
+				border: 0;
+        float: right;
+			}
+
+			nav[role=navigation]  li {
+				display: inline-block;
+
+
+			}
+			nav[role=navigation] li a {
+				border: 0;
+          float: right;
+			}
+
+
+
+      .logo {
+      width: 300px;
+        float: left;
+      }
+
+
+  	}
+>>>>>>> Stashed changes
 
 
 
