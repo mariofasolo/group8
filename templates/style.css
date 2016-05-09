@@ -5,7 +5,8 @@ body {
 
   padding: 0;
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Slab', Georgia, serif;
+  color: #848484;
 }
 
 
@@ -16,7 +17,6 @@ p {
 
 main {
 text-align: center;
-background-color: #F4F4F4;
 }
 
 
@@ -28,6 +28,10 @@ header {
   width: 100%;
   background-color: #20accf;
   display: absolute;
+}
+
+a {
+  color: #4A708B;
 }
 
 .logo {
@@ -180,7 +184,22 @@ h1 {
 
 
 
+@media screen and (min-width: 700px) {
+  #about_who {
+    max-width: 400px;
+    margin: 0 auto;
+  }
 
+  #about_philosophy {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  #about_jobs {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
 
 
 
