@@ -2,36 +2,32 @@
 
 
 body {
-  
+
   padding: 0;
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
-
 }
 
 
 p {
   font-size: 1em;
-
 }
 
 
 main {
 text-align: center;
 background-color: #F4F4F4;
-
-
 }
 
 
-
+ul {
+  list-style-type: none;
+}
 
 header {
   width: 100%;
   background-color: #20accf;
   display: absolute;
-
-
 }
 
 .logo {
@@ -47,7 +43,6 @@ width: 200px;
 a.menu-link {
   	    display: block;
         float: right;
-
 		    padding-top: 1em;
         padding-right: 2em;
 		}
@@ -79,47 +74,12 @@ a.menu-link {
 
 
 
-<<<<<<< Updated upstream
-=======
-		@media screen and (min-width:900px) {
-			a.menu-link {
-			   display: none;
-			}
-			.js nav[role=navigation] {
-				max-height: none;
-        display: inline-block;
-        float: right;
-        clear: none;
-        padding-top: .85em;
-        padding-right: 2em;
-			}
-			nav[role=navigation] ul {
-
-				border: 0;
-        float: right;
-			}
-
-			nav[role=navigation]  li {
-				display: inline-block;
-
-
-			}
-			nav[role=navigation] li a {
-				border: 0;
-          float: right;
-			}
-
-
-
-      .logo {
-      width: 300px;
-        float: left;
-      }
-
-
-  	}
->>>>>>> Stashed changes
-
+.about_photos {
+  margin-top: 1em;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
 
 
 .menu-link{
@@ -151,10 +111,6 @@ dl {
   margin-top: 0;
 }
 
-#about_column {
-  margin: 0;
-}
-
 
 #menu a {
   color: white;
@@ -165,9 +121,9 @@ dl {
 
 h1 {
   margin: 0;
-
+  color: #ff6666;
+  font-family: 'Roboto Slab', Georgia, serif;
 }
-
 
 #home_image {
   background-image: url("images/home_bg.png");
@@ -176,7 +132,6 @@ h1 {
 
   background-size: cover;
   background-position: center;
-
 }
 
 
@@ -188,8 +143,6 @@ h1 {
   padding: 1.5em;
   text-shadow: 0px 0px 1em #000000;
   margin-top: 0;
-
-
 }
 
 
@@ -198,19 +151,16 @@ h1 {
   color: white;
   font-family: 'Roboto Slab', Georgia, serif;
   display: inline-block;
-
-
   text-shadow: 0px 0px 1em #000000;
   border-style: solid;
   border-width: 2px;
   padding: 1em;
   text-decoration: none;
-
-
-
 }
 
-
+#about_text {
+  padding: 1em;
+}
 
 
 
@@ -238,6 +188,7 @@ h1 {
   a.menu-link {
      display: none;
   }
+
   .js nav[role=navigation] {
     max-height: none;
     display: inline-block;
@@ -246,43 +197,53 @@ h1 {
     padding-top: .85em;
     padding-right: 2em;
   }
-  nav[role=navigation] ul {
 
+  nav[role=navigation] ul {
     border: 0;
     float: right;
   }
 
   nav[role=navigation]  li {
     display: inline-block;
-
-
   }
+
   nav[role=navigation] li a {
     border: 0;
       float: right;
   }
-
-
 
   .logo {
   width: 300px;
     float: left;
   }
 
-
   #home_quote {
     font-size: 2em;
     margin-top: 2em;
     margin-bottom: 2em;
-
 }
 
 
 
+#about_who {
+  float: left;
+  width: 33%;
+}
+
+#about_philosophy {
+  float: left;
+  width: 33%;
+}
+
+#about_jobs {
+  float: left;
+  width: 33%;
+}
 
 
-
-
+footer {
+  clear: both;
+}
 
 
 
