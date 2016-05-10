@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300);
-
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
 body {
 
@@ -33,6 +33,38 @@ header {
 a {
   color: #4A708B;
 }
+
+hr {
+  margin-top: 2em;
+}
+
+.roboto {
+  font-family: 'Roboto';
+  font-size: 1.5em;
+}
+
+.roboto_slab {
+  font-size: 1.5em;
+}
+
+.swatch-blue {
+  background-color: #20accf;
+  width: 75px;
+  height: 75px;
+}
+
+.swatch-gray {
+  background-color: #848484;
+  width: 75px;
+  height: 75px;
+}
+
+.swatch-red {
+  background-color: #ff6666;
+  width: 75px;
+  height: 75px;
+}
+
 
 .logo {
 width: 200px;
@@ -115,6 +147,9 @@ dl {
   margin-top: 0;
 }
 
+.pattern_library {
+  padding: 2em;
+}
 
 #menu a {
   color: white;
@@ -127,6 +162,12 @@ h1 {
   margin: 0;
   color: #ff6666;
   font-family: 'Roboto Slab', Georgia, serif;
+}
+
+h2 {
+  color: #cc5151;
+  font-family: 'Roboto', Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 #home_image {
