@@ -356,3 +356,15 @@ footer {
 
 
 }
+
+
+@media screen and (max-width: 500px) {
+  #donate_intro {
+
+  font-size: 1.3em;
+
+
+
+
+  }
+}
