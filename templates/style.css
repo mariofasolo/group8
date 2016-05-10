@@ -208,6 +208,15 @@ h2 {
 }
 
 
+#donate_text {
+  padding: 1em;
+max-width: 600px;
+margin: 1em auto;
+
+
+}
+
+
 
 .clearfix:before, .clearfix:after {
   content: " ";
@@ -223,6 +232,30 @@ h2 {
     zoom: 1; /* IE < 8 */
 }
 
+
+
+
+#donate_button {
+
+  border-style: solid;
+  border-color: #ff6666;
+  margin: 1em;
+  margin-top: 1.5em;
+  padding: 1em;
+  font-size: 2em;
+  color: #ff6666;
+  display: inline-block;
+  border-radius: .5em;
+  text-decoration: none;
+
+
+}
+
+
+#donate_button:hover, #donate_button:focus {
+    background-color: #ff6666;;
+    color: white;
+}
 
 
 @media screen and (min-width: 700px) {
