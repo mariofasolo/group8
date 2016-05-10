@@ -217,6 +217,10 @@ margin: 1em auto;
 }
 
 
+p {
+  font-size: 0.9em;
+}
+
 
 .clearfix:before, .clearfix:after {
   content: " ";
